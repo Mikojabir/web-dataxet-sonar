@@ -20,10 +20,10 @@ ${TRANDWATCH_SLIDE_MODE_NEXT_BUTTON}    //div[@class='z-0 space-x-3']/button[1]
 ${TRANDWATCH_SLIDE_MODE_PREV_BUTTON}    //div[@class='z-0 space-x-3']/button[2]
 
 #Element dropdown country
-${TRANSWATCH_DD_COUNTRY}    //*[@id='headlessui-listbox-button-:rk:']
-${TRANSWATCH_DD_INDONESIA}    //*[@id='headlessui-listbox-option-:r1e:']
-${TRANSWATCH_DD_COUNTRY_SINGAPORE}   //*[@id='headlessui-listbox-option-:r1f:'] 
-${TRANSWATCH_DD_COUNTRY_MALAYSIA}    //*[@id='headlessui-listbox-option-:r1g:']
-${TRANSWATCH_DD_COUNTRY_THAILAND}    //*[@id='headlessui-listbox-option-:r1h:']         
+${TRANSWATCH_DD_COUNTRY}    //button[@id='headlessui-listbox-button-:Rdmf6:']
+${TRANSWATCH_DD_INDONESIA}    //li[@id='headlessui-listbox-option-:r0:']
+${TRANSWATCH_DD_COUNTRY_SINGAPORE}   //li[@id='headlessui-listbox-option-:r1:'] 
+${TRANSWATCH_DD_COUNTRY_MALAYSIA}    //li[@id='headlessui-listbox-option-:r2:']
+${TRANSWATCH_DD_COUNTRY_THAILAND}    //li[@id='headlessui-listbox-option-:r3:']         
 
 

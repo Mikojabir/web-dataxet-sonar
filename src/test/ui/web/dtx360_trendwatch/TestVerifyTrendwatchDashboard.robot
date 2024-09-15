@@ -46,9 +46,30 @@ Test Validation as as user able to the switch with TV mode and displayed in TV f
     Trendwatch.Switch to TV mode
     Close Browser
 
-Test Validation as a user able to select country and feed updates to display content
+Test Validation as a user able to select Singapore country and feed updates to display content
     Web.Open application
     Web.Login success
     Trendwatch.Click Open App button
     Trendwatch.Select Singapore country
+    Close Browser
+
+Test Validation as a user able to select Malaysia country and feed updates to display content
+    Web.Open application
+    Web.Login success
+    Trendwatch.Click Open App button
+    Trendwatch.Select Malaysia country
+    Close Browser
+
+Test Validation as a user able to select Thailand country and feed updates to display content
+    Web.Open application
+    Web.Login success
+    Trendwatch.Click Open App button
+    Trendwatch.Select Thailand country
+    Close Browser
+
+Test Validation as a user able to select Indonesia country and feed updates to display content
+    Web.Open application
+    Web.Login success
+    Trendwatch.Click Open App button
+    Trendwatch.Select Indonesia country
     Close Browser
