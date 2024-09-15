@@ -3,13 +3,13 @@ Resource    ../../../../main/utils/Web.robot
 Resource    ../../../../main/utils/Trendwatch.robot
 
 *** Test Cases ***
-Test Validation as a user able to click open app and direct to DXT360 Trendwatch dashboard
+Test verify as a user able to click open app and direct to DXT360 Trendwatch dashboard
     Web.Open application
     Web.Login success
     Trendwatch.Click Open App button
     Close Browser
 
-Test Validation as a user can navigate between different channel tabs in DXT360 Trendwatch dashboard
+Test verify as a user can navigate between different channel tabs in DXT360 Trendwatch dashboard
     Web.Open application
     Web.Login success
     Trendwatch.Click Open App button
@@ -21,7 +21,7 @@ Test Validation as a user can navigate between different channel tabs in DXT360 
     Trendwatch.Navigation to channel Tiktok
     Close Browser
 
-Test Validation as as user able to the switch with Slide moded and isplayed in slide format
+Test verify as as user able to the switch with Slide moded and isplayed in slide format
     Web.Open application
     Web.Login success
     Trendwatch.Click Open App button
@@ -29,7 +29,7 @@ Test Validation as as user able to the switch with Slide moded and isplayed in s
     Trendwatch.Switch to Slide mode
     Close Browser
 
-Test Validation as as user able to the switch with Table mode and displayed in table format
+Test verify as as user able to the switch with Table mode and displayed in table format
     Web.Open application
     Web.Login success
     Trendwatch.Click Open App button
@@ -38,7 +38,7 @@ Test Validation as as user able to the switch with Table mode and displayed in t
     Trendwatch.Switch to Table mode
     Close Browser
 
-Test Validation as as user able to the switch with TV mode and displayed in TV format
+Test verify as as user able to the switch with TV mode and displayed in TV format
     Web.Open application
     Web.Login success
     Trendwatch.Click Open App button
@@ -46,28 +46,28 @@ Test Validation as as user able to the switch with TV mode and displayed in TV f
     Trendwatch.Switch to TV mode
     Close Browser
 
-Test Validation as a user able to select Singapore country and feed updates to display content
+Test verify as a user able to select Singapore country and feed updates to display content
     Web.Open application
     Web.Login success
     Trendwatch.Click Open App button
     Trendwatch.Select Singapore country
     Close Browser
 
-Test Validation as a user able to select Malaysia country and feed updates to display content
+Test verify as a user able to select Malaysia country and feed updates to display content
     Web.Open application
     Web.Login success
     Trendwatch.Click Open App button
     Trendwatch.Select Malaysia country
     Close Browser
 
-Test Validation as a user able to select Thailand country and feed updates to display content
+Test verify as a user able to select Thailand country and feed updates to display content
     Web.Open application
     Web.Login success
     Trendwatch.Click Open App button
     Trendwatch.Select Thailand country
     Close Browser
 
-Test Validation as a user able to select Indonesia country and feed updates to display content
+Test verify as a user able to select Indonesia country and feed updates to display content
     Web.Open application
     Web.Login success
     Trendwatch.Click Open App button
