@@ -109,3 +109,27 @@ Select Indonesia country
     Sleep    2s
     Click Element    ${TRANSWATCH_DD_INDONESIA} 
     Sleep    2s
+
+Validation 20 post displayed
+    [Documentation]    Positive
+    Sleep    3s
+    ${TOTAL_ITEMS}=    Set Variable    20
+    ${MORE_ITEM_TO_LOAD}=    Set Variable    True
+
+    WHILE    ${MORE_ITEM_TO_LOAD}
+    #Try to counting
+    ${ITEMS}=    Get WebElements    //*[@data-testid='twitter_card']
+    ${ITEM_COUNT}=    Get Length    ${ITEMS}
+    ${TOTAL_ITEMS}=    Evaluate    ${TOTAL_ITEMS} + ${ITEM_COUNT}
+    Log    Total visible items: ${TOTAL_ITEMS} 
+
+    #Scroll Down
+    Execute Javascript    window.scrollBy(0, 10000);
+    Sleep    2s
+
+    #Check if more contenct items ?
+    ${NEW_ITEMS}=    Get WebElements    //*[@data-testid='twitter_card']
+    ${NEW_ITEMS_COUNT}=    Get Length    ${NEW_ITEMS}
+    Run Keyword If    ${NEW_ITEMS_COUNT} == ${ITEM_COUNT}    Set Variable    ${MORE_ITEM_TO_LOAD}    False
+    Exit For Loop
+    END

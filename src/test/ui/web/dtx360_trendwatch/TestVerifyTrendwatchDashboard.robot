@@ -73,3 +73,10 @@ Test verify as a user able to select Indonesia country and feed updates to displ
     Trendwatch.Click Open App button
     Trendwatch.Select Indonesia country
     Close Browser
+
+Test verify as a user see 20 trending posts should be displayed
+    Web.Open application
+    Web.Login success
+    Trendwatch.Click Open App button
+    Trendwatch.Validation 20 post displayed
+    Close Browser

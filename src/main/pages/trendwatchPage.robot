@@ -26,4 +26,4 @@ ${TRANSWATCH_DD_COUNTRY_SINGAPORE}   //li[@id='headlessui-listbox-option-:r1:']
 ${TRANSWATCH_DD_COUNTRY_MALAYSIA}    //li[@id='headlessui-listbox-option-:r2:']
 ${TRANSWATCH_DD_COUNTRY_THAILAND}    //li[@id='headlessui-listbox-option-:r3:']         
 
-
+${TRANSWATCH_LAST_POST}    //*[@data-testid='twitter_card']/div[1]/div[5]/div[4]
